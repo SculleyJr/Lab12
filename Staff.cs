@@ -6,6 +6,10 @@ namespace Lab12
         private string _school { set; get; }
         private double _pay { set; get; }
 
+        public Staff()
+        {
+
+        }
         public Staff(string name, string address) : base(name, address)
         {
 

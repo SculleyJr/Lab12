@@ -8,7 +8,10 @@ namespace Lab12
         private int _year { get; set; }
         private double _fee { get; set; }
 
+        public Student()
+        {
 
+        }
         public Student(string name, string address, string program, int year, double fee) : base(name, address)
         {
             _program = program;

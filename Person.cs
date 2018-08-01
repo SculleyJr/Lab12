@@ -6,6 +6,10 @@ namespace Lab12
         private string _name { get; set; }
         private string _address { get; set; }
 
+        public Person()
+        {
+
+        }
         public  Person(string name,string address)
         {
             _name = name;
